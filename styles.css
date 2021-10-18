@@ -1,7 +1,29 @@
-.header #menu {
+.header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    /* background-color: orangered; */
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:blue; */
+}
+
+ .menu div {
+    display: flex;
+    /* background-color: deeppink; */
+}
+
+.menu a {
+    margin: auto;
+    /* background-color: lawngreen; */
+}
+
+h1 {
+    text-align: center;
 }
 
 /*
