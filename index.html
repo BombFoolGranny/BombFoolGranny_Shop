@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <title>BombFoolGranny Shop</title>
+
+    <!-- Подключаем таблицу стилей CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
     <!-- Подключаем билиотеки React'а -->
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
@@ -13,7 +17,15 @@
 </head>
 
 <body>
+    <div class="header">
+        <img src="logo.png" width="500" />
+        <div id="menu">
+            <div id="catalog"> Каталог </div>
+            <div id="shops"> Магазины </div>
+            <div id="contacts"> Контакты </div>
+        </div>
+    </div>
     <h1>Добро пожаловать на BombFoolGranny_Shop!</h1>
-    <div id ="test">Этот текст скоро станет элементом React...</div>
+    <div id="test">Этот текст скоро станет элементом React...</div>
 </body>
 </html>

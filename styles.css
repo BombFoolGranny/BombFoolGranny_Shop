@@ -1,0 +1,12 @@
+.header #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*
+.menu .header {
+    display: flex;
+    justify-content: space-between;
+}
+*/
